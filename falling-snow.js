@@ -73,7 +73,7 @@
           var timer=setTimeout("movesnow()",50);
       }
       for (i=0;i<=snowmax;i++) {
-          document.write("<span id='s"+i+"' style='z-index:0;opacity:0.7;position:fixed;top:-"+snowmaxsize+"px;'>"+snowletter+"</span>");
+          document.write("<span id='s"+i+"' style='z-index:9;pointer-events:none;opacity:0.8;position:fixed;top:-"+snowmaxsize+"px;'>"+snowletter+"</span>");
       }
       if (browserok) {
           window.onload=setTimeout(function() {
